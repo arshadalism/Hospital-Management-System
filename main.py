@@ -52,7 +52,7 @@ class Billing:
 
 if __name__ == '__main__':
     p1 = Patient("Arshad", 23, "Male")
-    d1 = Doctor("Dr.Mannan Khan", "Physician")
+    d1 = Doctor("Dr.Aleem Siddiqui", "Physician")
     # ap1 = Appointment(d1, p1, "2024-04-01 10:00 AM")
     d1.add_patient(Patient("Sarfaraz", 26, "Male"))
     d1.add_patient(Patient("Aksha", 22, "Female"))
